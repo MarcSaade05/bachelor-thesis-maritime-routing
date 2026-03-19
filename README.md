@@ -139,12 +139,7 @@ They contain the actual outputs and printed summaries from a complete run.
 
 **Goal:** exploration of the graph structure and preliminary modelling ideas.
 
-This notebook:
-
-- loads one of the focus-zone graphs,
-- visualises nodes and routes on the map,
-- experiments with simple message passing / GCN layers,
-- helps decide the final feature set (coordinates, degrees, currents, SST) and model architecture.
+This notebook is used to explore the overall points in our dataset and visualize the whole zone around the US, not only the focus zone.
 
 It plays a diagnostic/experimental role rather than being part of the strict reproduction pipeline.
 
@@ -190,8 +185,8 @@ Main stages:
    - Implement GPU training with CPU fallback when memory is limited.
 
 6. **Figure generation**
-   - Export Dijkstra route plots for Miami–New York.
-   - Export edge and node probability maps used in Section 5 of the thesis.
+   -Dijkstra route plots for Miami–New York.
+   - edge and node probability maps used in Section 5 of the thesis.
 
 ---
 
@@ -211,8 +206,3 @@ Using the same architecture and training protocol makes the January vs July comp
    - Copernicus currents and SST netCDF files for the same periods  
      (see Section 1.2).
    - Place them in a directory where the notebooks can find them, or update path variables accordingly.
-
-2. **(Optional) Run AIS sanity checks**
-
-   ```bash
-   jupyter notebook Data_preprocessing.ipynb
