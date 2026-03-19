@@ -1,0 +1,20 @@
+port_id,name,lat,lon
+houston,Houston,29.76,-95.37
+galveston,Galveston,29.30,-94.80
+new_orleans,New Orleans,29.95,-90.07
+tampa,Tampa,27.95,-82.46
+miami,Miami,25.77,-80.19
+jacksonville,Jacksonville,30.33,-81.66
+savannah,Savannah,32.08,-81.09
+charleston,Charleston,32.79,-79.93
+norfolk,Norfolk,36.85,-76.29
+baltimore,Baltimore,39.28,-76.61
+philadelphia,Philadelphia,39.93,-75.14
+new_york,New York,40.64,-74.42
+havana,Havana,23.14,-82.36
+veracruz,Veracruz,19.20,-96.13
+mobile,Mobile,30.69,-88.04
+panama_city,Panama City (FL),30.15,-85.67
+port_everglades,Port Everglades,26.09,-80.12
+freeport,Freeport (Bahamas),26.53,-78.70
+san_juan,San Juan (PR),18.47,-66.11
